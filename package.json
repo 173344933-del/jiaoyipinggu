@@ -1,0 +1,9 @@
+{
+  "name": "sentiment-sample-library",
+  "version": "1.0.0",
+  "private": true,
+  "description": "刘备和朋友们·二级市场情绪样本库与交易评估体系",
+  "scripts": {
+    "dev": "node server.js --host 127.0.0.1 --port 7100"
+  }
+}
