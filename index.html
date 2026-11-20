@@ -262,9 +262,9 @@
   数据来源：知识星球某价值投资星球全部公开内容（2019-03-13 ~ 2026-10-02）整理；观点原作者为星主"刘教授"。本库仅为研究样本整理，不构成投资建议；引用请标注日期与主题ID。
 </footer>
 
-<script src="library.js"></script>
-<script src="masters.js"></script>
-<script src="stocks.js"></script>
+<script src="library.js?v=3"></script>
+<script src="masters.js?v=3"></script>
+<script src="stocks.js?v=3"></script>
 <script>
 (function () {
   var LIB = window.LIBRARY;
@@ -630,8 +630,8 @@
   var F13 = null;
   var MASTER2FILER = { druck: "Duquesne", buffett: "Berkshire", dalio: "Bridgewater",
                        burry: "Scion", lilu: "Himalaya", klarman: "Baupost" };
-  fetch("data/13f.json").then(function (r) { return r.json(); }).then(function (d) { F13 = d; }).catch(function () {});
-  fetch("data/feed.json").then(function (r) { return r.json(); }).then(function (d) {
+  fetch("data/13f.json?v=3").then(function (r) { return r.json(); }).then(function (d) { F13 = d; }).catch(function () {});
+  fetch("data/feed.json?v=3").then(function (r) { return r.json(); }).then(function (d) {
     feedData = d; renderFeed();
   }).catch(function () { renderFeed(); });
 
