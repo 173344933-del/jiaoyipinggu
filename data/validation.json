@@ -1,0 +1,146 @@
+{
+ "quarter": "2026-Q2",
+ "generated": "2026-11-20 00:26",
+ "reference": "GitHub: holdingsintel/holdingsintel-open-data（独立解析，同accession比对）",
+ "checked": 9,
+ "passed": 5,
+ "checks": [
+  {
+   "name": "Duquesne Family Office（德鲁肯米勒）",
+   "status": "diff",
+   "ours_rows": 90,
+   "ours_unique": 90,
+   "ref_positions": 86,
+   "count_match": false,
+   "ours_top1": "Natera Inc",
+   "ref_top1": "NATERA INC",
+   "top1_match": true,
+   "top5_overlap": "3/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Berkshire Hathaway（巴菲特）",
+   "status": "ok",
+   "ours_rows": 29,
+   "ours_unique": 29,
+   "ref_positions": 29,
+   "count_match": true,
+   "ours_top1": "APPLE INC",
+   "ref_top1": "APPLE INC",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Bridgewater（达里奥）",
+   "status": "ok",
+   "ours_rows": 997,
+   "ours_unique": 997,
+   "ref_positions": 997,
+   "count_match": true,
+   "ours_top1": "STATE STR SPDR S&P 500 ETF T",
+   "ref_top1": "STATE STREET SPDR S&P 500 ETF TRUST CL USD INC",
+   "top1_match": true,
+   "top5_overlap": "4/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Scion Asset Management（Michael Burry）",
+   "status": "ref_missing",
+   "note": "GitHub参考集未收录该机构"
+  },
+  {
+   "name": "Pershing Square（Ackman）",
+   "status": "ref_missing",
+   "note": "GitHub参考集未收录该机构"
+  },
+  {
+   "name": "HHLR Advisors（高瓴）",
+   "status": "ok",
+   "ours_rows": 35,
+   "ours_unique": 35,
+   "ref_positions": 35,
+   "count_match": true,
+   "ours_top1": "LEGEND BIOTECH CORP",
+   "ref_top1": "Legend Biotech Corp. Sponsored ADR",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Greenwoods Asset Management（景林）",
+   "status": "ref_missing",
+   "note": "GitHub参考集未收录该机构"
+  },
+  {
+   "name": "Tiger Global",
+   "status": "ok",
+   "ours_rows": 46,
+   "ours_unique": 46,
+   "ref_positions": 46,
+   "count_match": true,
+   "ours_top1": "TAIWAN SEMICONDUCTOR MANUFAC",
+   "ref_top1": "TAIWAN SEMICONDUCTOR SPONSORED ADR /1 ADR REPS 5 ORD SHS/",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Soros Fund Management（索罗斯）",
+   "status": "diff",
+   "ours_rows": 258,
+   "ours_unique": 258,
+   "ref_positions": 254,
+   "count_match": false,
+   "ours_top1": "TAIWAN SEMICONDUCTOR MANUFAC",
+   "ref_top1": "AMAZON.COM INC",
+   "top1_match": false,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "ARK Investment Management（木头姐）",
+   "status": "ok",
+   "ours_rows": 190,
+   "ours_unique": 190,
+   "ref_positions": 190,
+   "count_match": true,
+   "ours_top1": "Tesla Inc",
+   "ref_top1": "TESLA INC",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Appaloosa LP（Tepper）",
+   "status": "diff",
+   "ours_rows": 27,
+   "ours_unique": 27,
+   "ref_positions": 25,
+   "count_match": false,
+   "ours_top1": "AMAZON COM INC",
+   "ref_top1": "AMAZON COM INC",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-14"
+  },
+  {
+   "name": "Daily Journal（芒格生前持仓载体）",
+   "status": "ref_missing",
+   "note": "GitHub参考集未收录该机构"
+  },
+  {
+   "name": "Renaissance Technologies",
+   "status": "diff",
+   "ours_rows": 3139,
+   "ours_unique": 3139,
+   "ref_positions": 3140,
+   "count_match": false,
+   "ours_top1": "NVIDIA CORPORATION",
+   "ref_top1": "NVIDIA CORP",
+   "top1_match": true,
+   "top5_overlap": "5/5",
+   "filed": "2026-08-13"
+  }
+ ]
+}
