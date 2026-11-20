@@ -1,0 +1,7 @@
+__pycache__/
+data/inbox/*
+!data/inbox/README.md
+data/funds.csv
+data/fund_top_holdings.csv
+data/stocks.csv
+*.pyc
