@@ -142,7 +142,7 @@
   <div class="h-in">
     <div class="h-row">
       <h1>二级市场情绪样本库 · 交易评估体系</h1>
-      <span class="sub">刘备和朋友们 2019–2026 ｜ 全部带日期可回验</span>
+      <span class="sub">某价值投资星球 2019–2026 ｜ 全部带日期可回验</span>
       <div class="stats" id="stats"></div>
     </div>
     <nav class="tabs">
@@ -220,7 +220,7 @@
         <li>诊断报告导出（PDF/MD）</li>
         <li>新大师上线优先体验（猫笔刀实盘跟踪筹备中）</li></ul></div>
       <div class="card"><h3>数据级别说明（诚实标注）</h3><ul>
-        <li><b>实盘语料级</b>：刘备教授——七年星球原文+真实持仓，逐条带日期</li>
+        <li><b>实盘语料级</b>：刘教授——七年星球原文+真实持仓，逐条带日期</li>
         <li><b>实盘13F级</b>：德鲁肯米勒/巴菲特/达里奥/Burry——SEC 原始文件，滞后≤45天</li>
         <li><b>模型抽象级</b>：冯柳/猫笔刀/段永平/但斌——公开言论整理的检查清单，<b>不代表其本人观点</b></li></ul></div>
     </div>
@@ -235,7 +235,7 @@
 
   <!-- ====== 评估体系 ====== -->
   <section id="view-fw" class="view fw">
-    <h2>卖出五律（刘备教授 2019–2026 真实操作提炼）</h2>
+    <h2>卖出五律（刘教授 2019–2026 真实操作提炼）</h2>
     <p class="lead">五律全部来自语料中带日期的真实买卖记录，可逐条回验。卖出决策顺序：<b>逻辑 &gt; 估值 &gt; 技术/资金</b>——技术与资金信号只决定执行节奏，不否决基本面持有逻辑。</p>
     <div class="cards" id="laws"></div>
 
@@ -259,7 +259,7 @@
 </main>
 
 <footer>
-  数据来源：知识星球「刘备和朋友们」全部公开内容（2019-03-13 ~ 2026-10-02）整理；观点原作者为星主"刘备教授"。本库仅为研究样本整理，不构成投资建议；引用请标注日期与主题ID。
+  数据来源：知识星球某价值投资星球全部公开内容（2019-03-13 ~ 2026-10-02）整理；观点原作者为星主"刘教授"。本库仅为研究样本整理，不构成投资建议；引用请标注日期与主题ID。
 </footer>
 
 <script src="library.js"></script>
@@ -560,7 +560,7 @@
     var L = ["# 多大师交易模型诊断报告", "",
       "- 标的：" + lastDx.q + (lastDx.resolved && lastDx.resolved !== lastDx.q ? "（" + lastDx.raw + "）" : ""),
       "- 生成时间：" + lastDx.time.toLocaleString("zh-CN"),
-      "- 语料命中：" + (lastDx.corpusHit ? lastDx.corpusHit + "（刘备教授样本库）" : "无"), "",
+      "- 语料命中：" + (lastDx.corpusHit ? lastDx.corpusHit + "（刘教授样本库）" : "无"), "",
       "> 本报告由交易模型诊断引擎生成：实盘级大师检索真实历史判断与持仓，模型抽象级大师给出该模型下的检查清单。诊断给问题，不给买卖指令，不构成投资建议。", ""];
     lastDx.results.forEach(function (r, i) {
       L.push("## " + (i + 1) + ". " + r.name + "（" + r.level + "）", "");
@@ -570,7 +570,7 @@
       r.questions.forEach(function (x) { L.push("- " + x); });
       L.push("", "锚点：" + r.quote + "｜来源：" + r.src, "");
     });
-    L.push("---", "数据来源：刘备和朋友们语料库 / SEC EDGAR 13F；模型抽象级内容不代表大师本人观点。");
+    L.push("---", "数据来源：公开语料库 / SEC EDGAR 13F；模型抽象级内容不代表大师本人观点。");
     return L.join("\n");
   }
   function downloadMd() {
